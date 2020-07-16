@@ -25,7 +25,7 @@ paginate     = 10
   images = [""]
 
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
 [taxonomies]
     category = "blog"
@@ -34,7 +34,7 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Dark Mode"
+    title = "Light Mode"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
