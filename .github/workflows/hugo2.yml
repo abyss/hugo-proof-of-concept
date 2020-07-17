@@ -1,4 +1,4 @@
-name: auto-deploy
+name: hugo2-deploy
 on: push
 jobs:
   deploy:
@@ -20,16 +20,16 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --minify --config config.toml
+        run: hugo --minify --config config2.toml
 
-      - name: Deploy site 1
+      - name: Deploy site 2
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.DEPLOY_KEY }}
-          external_repository: abyss/hugo-proof-of-concept-d1
+          external_repository: abyss/hugo-proof-of-concept-d2
           publish_dir: ./public
           # keep_files: true
           user_name: abyss
           user_email: abyss@users.noreply.github.com
           publish_branch: master
-          cname: hugo1.abyss.codes
+          cname: hugo2.abyss.codes
