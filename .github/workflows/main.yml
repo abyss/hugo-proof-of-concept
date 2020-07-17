@@ -32,4 +32,4 @@ jobs:
           user_name: abyss
           user_email: abyss@users.noreply.github.com
           publish_branch: master
-          cname: hugo1.abyss.codes
+          # cname: hugo1.abyss.codes
