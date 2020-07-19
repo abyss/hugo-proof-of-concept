@@ -7,6 +7,7 @@ tags = [
     "golang",
     "hugo",
     "development",
+    "test"
 ]
 date = "2014-04-02"
 categories = [
