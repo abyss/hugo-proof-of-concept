@@ -1,0 +1,24 @@
+baseurl: "https://hugo2.abyss.codes"
+title: "Hugo 2"
+
+author:
+  name: "Craig"
+
+params:
+  # Subtitle for home
+  homeSubtitle: "Home Subtitle 2"
+
+  # Default theme "light" or "dark"
+  defaultTheme: "light"
+
+languages:
+  en:
+    title: "Hugo Demo 2"
+    subtitle: "Hugo 2 Subtitle"
+    copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts: "Read other posts"
+
+    params:
+      logo:
+        logoText: "hugo2"
+        logoHomeLink: "/"
