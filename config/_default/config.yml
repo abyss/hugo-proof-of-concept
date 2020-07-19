@@ -2,7 +2,7 @@
 baseurl: ""
 title: "Site Title"
 languageCode: "en-us"
-theme: "hello-friend-ng"
+theme: "hello-abyss"
 paginate: 10
 enableGitInfo: false
 
