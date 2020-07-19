@@ -29,8 +29,17 @@ params:
   # Default theme "light" or "dark"
   defaultTheme: "dark"
 
+  # Social icons
+  social:
+    main:
+      - name: twitter
+        url: https://twitter.com/AbyssVI
+      - name: github
+        url: https://github.com/abyss
+      - name: discord
+        url: https://discord.abyss.dev
+
 taxonomies:
-  category: "blog"
   tag: "tags"
   series: "series"
 
@@ -58,6 +67,5 @@ menu:
       identifier: "about"
       url: "/about"
 
-
 permalinks:
-  posts: "/posts/:year/:month/:title/"
+  posts: "/posts/:year/:month/:slug/"

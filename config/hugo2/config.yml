@@ -11,6 +11,11 @@ params:
   # Default theme "light" or "dark"
   defaultTheme: "light"
 
+  social:
+    extra:
+      - name: linkedin
+        url: https://www.linkedin.com/in/craig-reeder/
+
 languages:
   en:
     title: "Hugo Demo 2"
@@ -22,3 +27,9 @@ languages:
       logo:
         logoText: "hugo2"
         logoHomeLink: "/"
+
+menu:
+  extra:
+    - name: "Resume"
+      identifier: "resume"
+      url: ""
