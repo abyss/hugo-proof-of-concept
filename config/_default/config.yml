@@ -4,11 +4,9 @@ title: "Site Title"
 languageCode: "en-us"
 theme: "hello-abyss"
 paginate: 10
-enableGitInfo: true
+enableGitInfo: false
 
 params:
-  gitUrl: https://github.com/abyss/hugo-proof-of-concept/commit/
-
   dateform: "Jan 2, 2006"
   dateformShort: "Jan 2"
   dateformNum: "2006-01-02"
