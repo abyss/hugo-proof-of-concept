@@ -4,7 +4,7 @@ title: "Site Title"
 languageCode: "en-us"
 theme: "hello-abyss"
 paginate: 10
-enableGitInfo: false
+enableGitInfo: true
 
 params:
   dateform: "Jan 2, 2006"
