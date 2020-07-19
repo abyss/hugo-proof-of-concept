@@ -20,7 +20,7 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --minify --config config2.toml
+        run: hugo --minify --environment hugo2
 
       - name: Deploy site 2
         uses: peaceiris/actions-gh-pages@v3

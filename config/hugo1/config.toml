@@ -1,0 +1,23 @@
+baseurl      = "https://hugo1.abyss.codes"
+title        = "Hugo 1"
+
+[author]
+  name = "Abyss"
+
+[params]
+  # Subtitle for home
+  homeSubtitle = "Home Subtitle 1"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Hugo Demo 1"
+    subtitle = "Hugo 1 Subtitle"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "hugo1"
+      logoHomeLink = "/"
