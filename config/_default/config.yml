@@ -7,6 +7,8 @@ paginate: 10
 enableGitInfo: true
 
 params:
+  gitUrl: https://github.com/abyss/hugo-proof-of-concept/commit/
+
   dateform: "Jan 2, 2006"
   dateformShort: "Jan 2"
   dateformNum: "2006-01-02"
