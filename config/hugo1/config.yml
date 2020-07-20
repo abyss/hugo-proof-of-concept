@@ -14,11 +14,3 @@ params:
 languages:
   en:
     title: "Hugo Demo 1"
-    subtitle: "Hugo 1 Subtitle"
-    copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts: "Read other posts"
-
-    params:
-      logo:
-        logoText: "hugo1"
-        logoHomeLink: "/"

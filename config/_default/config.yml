@@ -39,6 +39,10 @@ params:
       - name: discord
         url: https://discord.abyss.dev
 
+  logo:
+    logoCursorColor: "#aaa"
+    logoHomeLink: "/"
+
 taxonomies:
   tag: "tags"
   series: "series"
@@ -46,15 +50,10 @@ taxonomies:
 languages:
   en:
     title: "Title"
-    subtitle: "Subtitle"
+    # subtitle: "Subtitle"
     keywords: ""
     copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts: "Read other posts"
-
-    params:
-      logo:
-        logoText: "logotext"
-        logoHomeLink: "/"
+    readOtherPosts: "More posts"
 
 # And you can even create generic menu
 menu:
