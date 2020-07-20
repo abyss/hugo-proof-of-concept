@@ -5,20 +5,13 @@ author:
   name: "Craig"
 
 params:
-  # Subtitle for home
-  homeSubtitle: "Home Subtitle 2"
-
   # Default theme "light" or "dark"
   defaultTheme: "light"
 
   social:
     extra:
       - name: linkedin
-        url: https://www.linkedin.com/in/craig-reeder/
-
-languages:
-  en:
-    title: "Hugo Demo 2"
+        url: https://www.linkedin.com/
 
 menu:
   extra:

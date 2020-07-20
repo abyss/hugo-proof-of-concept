@@ -5,12 +5,5 @@ author:
   name: "Abyss"
 
 params:
-  # Subtitle for home
-  homeSubtitle: "Home Subtitle 1"
-
   # Default theme "light" or "dark"
   defaultTheme: "dark"
-
-languages:
-  en:
-    title: "Hugo Demo 1"
