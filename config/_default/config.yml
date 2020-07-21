@@ -6,6 +6,8 @@ theme: "hello-abyss"
 paginate: 10
 enableGitInfo: false
 copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+enableRobotsTXT: true
+enableEmoji: true
 
 params:
   dateform: "Jan 2, 2006"
