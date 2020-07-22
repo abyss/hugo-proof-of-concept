@@ -17,6 +17,7 @@ params:
 
   # Subtitle for Page (HTML) Title
   # subtitle: "Subtitle"
+
   # Subtitle for home
   homeSubtitle: "System Administrator // DevOps"
 

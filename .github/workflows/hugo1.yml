@@ -25,7 +25,7 @@ jobs:
       - name: Deploy site 1
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.DEPLOY_KEY }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: abyss/hugo-proof-of-concept-d1
           publish_dir: ./public
           # keep_files: true
